@@ -1,0 +1,5 @@
+*.csproj.user
+*.assets
+*.nuget.cache
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
