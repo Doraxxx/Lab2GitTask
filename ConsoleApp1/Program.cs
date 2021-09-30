@@ -43,8 +43,16 @@ namespace ConsoleApp1
 
                 else if (oper == '/')
                 {
-                    total = a / b;
-                    Console.WriteLine(a + " / " + b + " = " + total);
+                    if (b == 0)
+                    {
+                        Console.WriteLine("Деление на ноль невозможно");
+                    }
+                    else
+                    {
+                        total = a / b;
+                        Console.WriteLine(a + " / " + b + " = " + total);
+                    }
+                    
                 }
                 else
                 {
